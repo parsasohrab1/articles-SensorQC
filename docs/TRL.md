@@ -40,7 +40,7 @@ Data: USGS 01579550, 2022, 5-minute values (approved data). Thresholds from the 
 
 ## Findings and caveats
 - Fault sizes here are subtle (1x and 3x the typical daily change). The rate-of-change test catches spikes and steps for temperature and specific conductance (0.92–1.00), but **no test detects drift** at these sizes (at most 0.17), and **none of the tests detects spikes or steps in turbidity** at these sizes: storm events make turbidity so variable that the calibrated thresholds are far above the injected faults.
-- The flatline test detects stuck sensors (1.00) for temperature and turbidity but has a high natural false-alarm rate on turbidity (35 per 1000 points): the sensor often reports identical values in clear water, and run lengths in the second half exceed those of the first half.
+- The flatline test detects stuck sensors (1.00) for temperature and turbidity but not for specific conductance (0.02: its natural runs of identical values are already long, so the threshold is high), and has a high natural false-alarm rate on turbidity (35 per 1000 points): the sensor often reports identical values in clear water, and run lengths in the second half exceed those of the first half.
 - The false-alarm rates on approved data are low (0.1–9 points per 1000) except for the long-window test on temperature (9) and the flatline test on turbidity (35). Approved data were already reviewed by USGS; any point flagged here may simply be a real event.
 - Injected faults are an artificial test; real fouling or calibration drift has other shapes. Thresholds from one half-year do not transfer to a different season without care.
 - No claim is made that these tests improve on USGS review.
