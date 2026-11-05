@@ -1,0 +1,209 @@
+{
+ "note": "real approved USGS data (2022) + INJECTED synthetic faults; thresholds at a point exceedance rate of 0.001 on the first half",
+ "parameters": {
+  "temperature": {
+   "n_cal": 52270,
+   "n_test": 51673,
+   "sd": 0.7412999999999947,
+   "thresholds": {
+    "rate": 0.29999999999999716,
+    "residual_2h": 1.8371500000001104,
+    "long_1d": 4.0,
+    "flatline": 88.0
+   },
+   "false_alarm_points_per_1000": {
+    "rate": 1.0839059324494338,
+    "residual_2h": 1.607374557003699,
+    "long_1d": 8.946418521609191,
+    "flatline": 0.3424657534246575
+   },
+   "detection": {
+    "spike_1x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.02,
+     "long_1d": 0.01,
+     "flatline": 0.0
+    },
+    "spike_3x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.91,
+     "long_1d": 0.08,
+     "flatline": 0.0
+    },
+    "step_1x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.01,
+     "long_1d": 0.08,
+     "flatline": 0.02
+    },
+    "step_3x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.92,
+     "long_1d": 0.31,
+     "flatline": 0.0
+    },
+    "drift_1x": {
+     "n": 100,
+     "rate": 0.08,
+     "residual_2h": 0.06,
+     "long_1d": 0.08,
+     "flatline": 0.0
+    },
+    "drift_3x": {
+     "n": 100,
+     "rate": 0.07,
+     "residual_2h": 0.03,
+     "long_1d": 0.17,
+     "flatline": 0.0
+    },
+    "flatline": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.01,
+     "flatline": 1.0
+    }
+   }
+  },
+  "specific_conductance": {
+   "n_cal": 52134,
+   "n_test": 51666,
+   "sd": 2.9652,
+   "thresholds": {
+    "rate": 2.0,
+    "residual_2h": 12.0,
+    "long_1d": 68.0,
+    "flatline": 267.4409999999989
+   },
+   "false_alarm_points_per_1000": {
+    "rate": 1.665246688869956,
+    "residual_2h": 2.633515355718214,
+    "long_1d": 2.096191918015605,
+    "flatline": 3.1012176560121767
+   },
+   "detection": {
+    "spike_1x": {
+     "n": 100,
+     "rate": 0.92,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "spike_3x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.03,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "step_1x": {
+     "n": 100,
+     "rate": 0.97,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "step_3x": {
+     "n": 100,
+     "rate": 1.0,
+     "residual_2h": 0.07,
+     "long_1d": 0.01,
+     "flatline": 0.0
+    },
+    "drift_1x": {
+     "n": 100,
+     "rate": 0.11,
+     "residual_2h": 0.04,
+     "long_1d": 0.02,
+     "flatline": 0.0
+    },
+    "drift_3x": {
+     "n": 100,
+     "rate": 0.1,
+     "residual_2h": 0.03,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "flatline": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.02
+    }
+   }
+  },
+  "turbidity": {
+   "n_cal": 52149,
+   "n_test": 51527,
+   "sd": 0.7413,
+   "thresholds": {
+    "rate": 13.900000000000006,
+    "residual_2h": 18.48319999999985,
+    "long_1d": 46.199399999999876,
+    "flatline": 4.0
+   },
+   "false_alarm_points_per_1000": {
+    "rate": 0.11671562238605637,
+    "residual_2h": 0.582761902911867,
+    "long_1d": 0.253001965630656,
+    "flatline": 35.540334855403344
+   },
+   "detection": {
+    "spike_1x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "spike_3x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.0
+    },
+    "step_1x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.01,
+     "long_1d": 0.0,
+     "flatline": 0.41
+    },
+    "step_3x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.44
+    },
+    "drift_1x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.05
+    },
+    "drift_3x": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 0.01
+    },
+    "flatline": {
+     "n": 100,
+     "rate": 0.0,
+     "residual_2h": 0.0,
+     "long_1d": 0.0,
+     "flatline": 1.0
+    }
+   }
+  }
+ }
+}
